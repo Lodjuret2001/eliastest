@@ -1,0 +1,642 @@
+button {
+    vertical-align: middle;
+}
+
+a {
+    vertical-align: middle;
+}
+
+
+button:hover {
+    cursor: wait;
+
+}
+
+/* AVSLUT PÅ CSS KOD FÖR element */
+
+.subscribe-button {
+    background-color: brown;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 2px;
+    transition: opacity 0.15s;
+    margin-left: 110px;
+}
+
+.subscribe-button:hover {
+    opacity: 0.5;
+}
+
+.subscribe-button:active {
+    opacity: 0.25;
+}
+
+.join-button {
+    background-color: white;
+    color: rgb(51, 51, 255);
+    border: 1px solid rgb(51, 51, 255);
+    border-radius: 2px;
+    padding: 9px 9px;
+    transition: background-color 0.5s, color 0.5s, opacity 0.2s;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+.join-button:hover {
+    background-color: rgb(51, 51, 255);
+    color: white;
+}
+
+.join-button:active {
+    opacity: 0.5;
+}
+
+.tweet-button {
+    background-color: rgb(110, 110, 255);
+    color: white;
+    border: none;
+    border-radius: 17px;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 9px 10px;
+    transition: box-shadow 0.5s, opacity 0.2s;
+}
+
+.tweet-button:hover {
+    box-shadow: -2px 2px 5px 0px rgba(100, 0, 0, 0.75)
+}
+
+.tweet-button:active {
+    opacity: 0.5;
+}
+
+/* AVSLUT PÅ CSS KOD FÖR 3 knappar */
+
+.backnext {
+    padding: 5px 5px;
+}
+
+.numbers {
+    margin: 0px 5px 0px 5px;
+    color: black;
+
+}
+
+.stretch {
+    color: white;
+    background-color: green;
+    padding: 5px 8px;
+    border: none;
+    transition: padding 0.5s;
+    font-size: 12px;
+    vertical-align: top;
+}
+
+.stretch:hover {
+    padding: 10px 16px
+}
+
+.shadow {
+    color: white;
+    background-color: green;
+    padding: 5px 8px;
+    border: none;
+    transition: padding 0.5s;
+    font-size: 12px;
+    vertical-align: top;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+.shadow:active {
+    margin-top: 2px;
+    margin-left: 2px;
+    box-shadow: none;
+}
+
+.button-test {
+    color: white;
+    background-color: green;
+    border: none;
+    font-size: 12px;
+    vertical-align: top;
+    padding: 8px 10px;
+    margin: 0px 10px;
+    transition: padding 0.5s, margin 0.5s;
+}
+
+.button-test:hover {
+    padding: 8px 20px;
+    margin: 0px 0px;
+}
+
+.macbook {
+    text-align: center;
+    font-family: Arial;
+
+}
+
+.p-macbook {
+    padding: 0px 0px 3px 0px;
+    margin: 0px 0px;
+}
+
+.new-text {
+    color: orange;
+    font-size: 10px;
+    font-weight: 600;
+
+}
+
+.pro {
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.supercharged {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cost-macbook {
+    font-size: 9px;
+}
+
+.buymacbook {
+    vertical-align: middle;
+    margin-top: 4px;
+    border-radius: 10px;
+    background-color: blue;
+    border: none;
+    padding: 3px 5px;
+    color: white;
+    font-size: 8px;
+}
+
+.avanza {
+    font-family: Arial;
+    vertical-align: top;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.value-market {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    margin-top: -1px;
+}
+
+.currency {
+    font-size: 15px;
+    margin-left: 10px;
+    color: gray;
+    font-weight: 500;
+}
+
+.market-today {
+    color: green;
+    margin-top: -1px;
+
+}
+
+.market-after-hours {
+    color: gray;
+    margin-top: -8px;
+
+}
+
+.value-after-hours {
+    color: red;
+}
+
+#googlesearch {
+    padding: 10px 150px 10px 10px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.15);
+}
+
+#googlesearch::placeholder {
+    color: rgb gray;
+    padding-right: 25px;
+    margin-right: -20px;
+}
+
+#googlesearch:focus {
+    outline: none;
+}
+
+.linkedin-signup {
+    vertical-align: top;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+
+.email-text {
+    font-size: 15px;
+}
+
+#input-email {
+    padding: 5px 20px 5px 2px;
+    border-radius: 3px;
+    border-width: 1px;
+    border: 2px solid blue;
+}
+
+#input-email:focus {
+    outline: none;
+    font-size: 25px;
+}
+
+.agree-join {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#agreetopolicy {
+    transform: scale(1.25);
+}
+
+
+
+
+.p-privacypolicy {
+    margin-left: 10px;
+}
+
+.btn-privacypolicy {
+    border: none;
+    padding: 20px 100px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+
+}
+
+/*  SIGN UP FORM/ CSS TRÄNING FÖR BLOCK/INLINEBLOCK */
+
+.sign-up-form {
+    margin: 15px;
+    width: 400px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    vertical-align: top;
+    padding-right: -5px;
+    display: inline-block;
+}
+
+.sign-up-form-p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.first-name,
+.last-name,
+.sign-up-email {
+    border-radius: 10px;
+    border: 1px solid gray;
+    outline: none;
+    padding: 10px;
+}
+
+.first-name,
+.last-name {
+    margin-bottom: 10px;
+
+}
+
+.first-name {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.last-name {
+    display: inline-block;
+}
+
+.sign-up-email {
+    display: block;
+    padding-right: 210px;
+    margin-bottom: 10px;
+}
+
+.btn-sign-up {
+    display: block;
+    width: 390px;
+    padding: 20px 0px;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-sign-up:hover {
+    background-color: black;
+    color: blue;
+}
+
+.btn-sign-up:active {
+    opacity: 0.5;
+}
+
+/* UBER FORM */
+
+.uber-form {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 15px 15px 15px 0px;
+    padding: 5px;
+    width: 400px;
+}
+
+.request-ride {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.destination-location,
+.pickup-location {
+    display: block;
+    border: none;
+    background-color: rgb(216, 216, 216);
+    outline: none;
+    padding: 10px;
+    padding-right: 200px;
+    border-radius: 1px;
+}
+
+.destination-location::placeholder,
+.pickup-location::placeholder {
+    color: rgb(63, 63, 63);
+}
+
+.destination-location {
+    margin: 5px 0px 10px 0px;
+}
+
+
+
+.btn-reqnow,
+.btn-btn-schedule {
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.btn-reqnow {
+    background-color: black;
+    color: white;
+
+}
+
+.btn-btn-schedule {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    color: rgb(0, 0, 0);
+
+}
+
+/* TEST AV DIV ELEMENT */
+
+.redbox {
+    background-color: red;
+    padding: 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.greencircle {
+    background-color: green;
+    padding: 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.add-friend {
+    margin: 15px;
+    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0);
+    display: inline-block;
+    background-color: rgb(255, 248, 238);
+}
+
+.add-friend-block {
+    margin: 15px;
+    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0);
+    display: block;
+    background-color: rgb(255, 248, 238);
+    width: 175px;
+}
+
+.profile-picture {
+    width: 175px;
+}
+
+.profile-name {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 5px;
+    color: black;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.mutual-friends {
+    text-align: left;
+    padding-left: 5px;
+    margin-top: -10px;
+    color: rgb(59, 59, 59);
+}
+
+.btn-friend {
+    padding: 8px 16px;
+    margin: -5px 0px 5px 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.btn-friend:hover {
+    background-color: rgb(97, 97, 249);
+    cursor: pointer;
+}
+
+/* GOOGLE */
+
+.google {
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.google-logo-div {
+    text-align: center;
+}
+
+.google-img {
+    display: inline-block;
+    width: 300px;
+}
+
+.google-search-box {
+    display: block;
+    margin: 10px 0px;
+    padding: 10px 10px;
+    border: none;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    outline: none;
+    text-align: left;
+    width: 500px;
+}
+
+
+
+.about-google,
+.lucky-google {
+    padding: 8px 25px;
+    cursor: pointer !important;
+}
+
+/* FOLLOW MENU */
+
+
+.follow-profile-picture-con,
+.follow-menu-text-con,
+.btn-follow-con {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.follow-profile-picture {
+    width: 100px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.follow-text-name,
+.follow-text-gray,
+.follow-text-gray-bottom {
+    margin: 0px;
+    padding-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.follow-text-name {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.follow-text-gray {
+    color: gray;
+    font-size: 17px;
+}
+
+
+
+.btn-follow {
+    padding: 10px 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+/* CAROUSEL */
+
+.friends-carousel {
+    box-shadow: 0px 0px 15px 1px;
+}
+
+.img-carousel {
+    padding: 5px;
+}
+
+.profile-picture-carousel {
+    width: 100%;
+
+}
+
+.carousel-name {
+    font-size: 25px;
+    margin: 0px;
+    font-weight: 700;
+
+}
+
+.mutual-friends-carousel {
+    margin: 0px;
+}
+
+.profile-picture-carousel-small {
+
+width: 100%;
+border-radius: 15px;
+
+}
+
+.mutual-friends-carousel-text {
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.add-friend-carousel {
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.55s;
+}
+
+.add-friend-carousel:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.add-friend-carousel:active {
+    background-color: rgb(255, 47, 231)
+}
+
+.profile-picture-carousel:hover {
+    content: url('https://scontent-cph2-1.xx.fbcdn.net/v/t39.30808-6/361311538_1940588852984603_5769145103682402472_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=j_lP8GtRvXEAX_SPr1O&_nc_ht=scontent-cph2-1.xx&oh=00_AfCkHNe8AKmjPdjP1n5WK6kurL3CNlbTrFaDv-9qUZ9CNQ&oe=655D483A');
+}
+.friends-carousel-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    margin-top: 30px;
+    
+}
+.mutual-friends-carousel-grid {
+display: grid;
+grid-template-columns: 30px 1fr;
+align-items: center;
+padding: 5px 0px;
+}

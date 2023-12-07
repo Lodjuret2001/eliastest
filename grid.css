@@ -1,0 +1,252 @@
+p {
+    margin: 0;
+
+}
+
+.messenger-menu {
+    border: 1px solid gray;
+    padding: 15px 15px 10px 15px;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.text {
+    font-size: 17px;
+}
+
+.number {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.follow-menu {
+    border: 1px solid gray;
+    margin-top: 30px;
+    padding: 15px 15px 10px 15px;
+}
+
+.follow-menu-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+
+.img-box {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.text-follow {
+    padding-left: 5px;
+}
+
+.img-follow-menu {
+    width: 80px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+
+}
+
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: gray;
+}
+
+.follow-btn {
+    background-color: blue;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.purple-navbar {
+    background-color: purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 50px;
+}
+
+
+.home-btn {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container-mid {
+    max-width: 400px;
+    padding: 0px 20px;
+}
+
+.purple-navbar-search {
+    border: none;
+    outline: none;
+    padding: 10px 100px 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.purple-navbar-btn {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+}
+
+.gmail-inbox {
+    padding: 10px;
+    box-shadow: 0px 0px 7px 1px;
+    height: auto;
+    width: 325px;
+    margin-top: 30px;
+}
+
+.all-inbox-notice {
+    display: block;
+    font-size: 12px;
+    color: gray;
+}
+
+.inbox-info-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inbox-img-box {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.inbox-img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+
+.title-time-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.time {
+    color: gray;
+    font-size: 15px;
+}
+
+
+.hook {
+    font-weight: 700;
+}
+
+.message {
+    font-size: 13px;
+    color: gray;
+}
+
+.twitter-post {
+    justify-content: stretch;
+    height: auto;
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 25px;
+max-width: 600px;
+}
+
+.profile-statement-box {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.profile-picture-box {
+    width: 50px;
+    padding-right: 10px;
+    margin-top: -15px;
+}
+
+.profile-picture {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.profile-statement-text-box {
+    flex: 1;
+}
+
+.username {
+    font-size: 17px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.username-tag {
+    color: gray;
+    font-weight: 500;
+}
+
+.description {
+    font-size: 17px;
+}
+
+.youtube-video {
+    display: flex;
+    justify-content: end;
+    height: auto;
+    align-items: center;
+    border-radius: 10px;
+    height: 80px;
+    margin-left: 60px;
+    border: 1px solid gray;
+    overflow: hidden;
+    max-width: 500px;
+}
+
+
+.web-links-yt {
+    padding-left: 30px;
+}
+
+.video-thumbnail-img {
+    width: 25%;
+    height: 80px;
+}
+
+
+.webadress {
+    color: gray;
+}
